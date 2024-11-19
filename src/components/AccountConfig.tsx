@@ -30,7 +30,7 @@ export default function AccountConfig({
 
   const formatCurrency = (value: number) => {
     if (isNaN(value) || value === null) return '$0.00';
-    return `$${value.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+    return `$${value.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 3 })}`;
   };
 
   const formatPercentage = (value: number) => {

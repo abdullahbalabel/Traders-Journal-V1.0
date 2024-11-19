@@ -39,7 +39,7 @@ export default function SetupGuide({ isOpen, onComplete }: SetupGuideProps) {
       <div className="bg-gray-800 rounded-xl p-8 max-w-md w-full">
         <div className="text-center mb-8">
           <h2 className="text-2xl font-bold mb-2">Welcome to TradersJournal</h2>
-          <p className="text-gray-400">Let's set up your trading account</p>
+          <p className="text-gray-400">Let's set up your account</p>
         </div>
 
         <div className="mb-8">

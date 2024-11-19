@@ -328,7 +328,7 @@ export class UserDatabase extends Dexie {
     
     // Reset settings to default
     await this.settings.add({
-      accountValue: 100000,
+      accountValue: 10000,
       profitRiskRatio: 2,
       lossRiskRatio: 1,
       riskPercentage: 1,
@@ -341,7 +341,7 @@ export class UserDatabase extends Dexie {
     let settings = await this.settings.toArray();
     if (settings.length === 0) {
       const defaultSettings = {
-        accountValue: 100000,
+        accountValue: 10000,
         profitRiskRatio: 2,
         lossRiskRatio: 1,
         riskPercentage: 1,
